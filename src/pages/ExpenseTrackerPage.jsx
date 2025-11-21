@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import './TrackerPage.css';
-import Modal from "../components/layout/common/Modal";
+import Modal from "../components/common/Modal";
 import ExpenseForm from '../components/forms/ExpenseForm'; 
 import DonutChart from '../components/common/DonutChart';
 import { formatCurrency } from '../utils/formatting';
